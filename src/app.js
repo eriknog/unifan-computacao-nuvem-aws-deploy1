@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Rota de teste / health check
 app.get('/', (req, res) => {
-  res.json({ mensagem: 'API funcionando!' });
+  res.json({ mensagem: 'Erik Nogueira' });
 });
 
 app.use('/usuarios', usuariosRoutes);
