@@ -76,3 +76,4 @@ jobs:
               -e AWS_REGION=$AWS_REGION \
               -e AWS_S3_BUCKET_NAME=$AWS_S3_BUCKET_NAME \
               $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+              #gg
